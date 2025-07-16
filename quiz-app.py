@@ -106,6 +106,7 @@ answers = [''] * 10
 
 while not flag:
     try:
+        # CHANGE YOUR QUESTIONS FROM HERE, INSIDE THE STRING QUOTATIONS
         answers[0] = input(
             '1. What does CPU stands for? \nA) Central Processing Uniform  B) Central Processing Unit  C) Central Peripheral Unit\n').upper()
         print('')
